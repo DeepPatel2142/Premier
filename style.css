@@ -9,3 +9,59 @@ html, body {
     height: 100%;
     width: 100%;
 }
+
+body {
+    background-color: #f8f8f8;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding-top: 0.1px;
+    /* I want to give margin top to the nav, that's why I apply 0.1 px of gap in #main because if I don't then main will also move with nav from the top.(It's a CSS bug) */
+}
+
+#nav {
+    height: 11vh;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 50px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav h1 {
+    /* background-color: aquamarine; */
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rowdies', sans-serif;
+    font-size: 45px;
+}
+
+#nav h2 {
+    /* background-color: aquamarine; */
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid black;
+    font-size: 22px;
+    font-weight: 400;
+    /* background-color: aqua; */
+}
+
+#nav h2:nth-last-child(1) {
+    width: 10%;
+}
+
+#nav h2:nth-last-child(2) {
+    width: 29%;
+}
