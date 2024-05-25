@@ -136,3 +136,44 @@ body {
 #over2 img {
     height: 5vw;
 }
+
+#scroll {
+    /* background-color: antiquewhite; */
+    height: 40vh;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#container {
+    height: 95%;
+    width: 110%;
+    /* background-color: blue; */
+    display: inline-block;
+    padding: 2vw;
+    animation: anime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#scroll img {
+    /* display: none; */
+    height: 100%;
+    width: 15.25%;
+    margin: 1vw;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 30% 0;
+}
+
+@keyframes anime {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
