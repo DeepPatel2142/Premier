@@ -26,7 +26,7 @@ body {
     height: 11vh;
     width: 100%;
     /* background-color: red; */
-    margin-top: 50px;
+    margin-top: 6vh;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     display: flex;
@@ -41,7 +41,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Rowdies', sans-serif;
+
     font-size: 45px;
 }
 
@@ -64,4 +64,75 @@ body {
 
 #nav h2:nth-last-child(2) {
     width: 29%;
+}
+
+#center {
+    height: 90%;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    padding: 4vw;
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    position: relative;
+}
+
+#content video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#overlay {
+    /* background-color: aqua; */
+    height: 52%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 3vw;
+    /* background-color: rgba(0, 0, 0, 0.154);
+    backdrop-filter: blur(5px);  Blur Effect*/
+}
+
+#over1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    margin-bottom: 2vw;
+}
+
+#over1 h1 {
+    font-family: 'Rowdies', sans-serif;
+    font-size: 3.6vw;
+    /* mix-blend-mode: difference; */
+}
+
+#over1 h2 {
+    font-size: 1vw;
+    padding: 2vw 2.2vw;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+#over2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #fff;
+    padding: 1.5vw 0;
+    color: #fff;
+}
+
+#over2 h4 {
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+#over2 img {
+    height: 5vw;
 }
