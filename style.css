@@ -153,7 +153,7 @@ body {
     display: inline-block;
     padding: 2vw;
     animation: anime;
-    animation-duration: 5s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -176,4 +176,165 @@ body {
     to {
         transform: translateX(-100%);
     }
+}
+
+#alphabet {
+    height: 11vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8vw;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+#alphabet h5 {
+    font-size: 1.7vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+    border-bottom: 2px solid #000;
+    letter-spacing: 3px;
+    margin-right: 1.8vw;
+}
+
+#alphabet h6 {
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 3px;
+    /* background-color: antiquewhite; */
+    padding: 0.5vw 0.6vw;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: all ease 0.2s;
+}
+
+#alphabet h6:hover {
+    border: 1px solid black;
+}
+
+#page2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 5vw;
+}
+
+#page2-1 {
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid red; */
+}
+
+#page2-1 img {
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page2-1 h1 {
+    font-family: 'Rowdies', sans-serif;
+    padding-top: 1vw;
+    word-spacing: 0.5vw;
+    font-size: 2.8vw;
+    text-transform: uppercase;
+}
+
+#page2-2 {
+    height: 100%;
+    width: 36%;
+    /* border: 2px solid red; */
+}
+
+#page2-2 img {
+    height: 65%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page2-2text {
+    height: 15%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    gap: 4vw;
+    padding-top: 2vw;
+}
+
+#page2-2text h2 {
+    /* border: 2px solid rebeccapurple; */
+    line-height: 1.8vw;
+    font-weight: 500;
+}
+
+#page2-2text h4 {
+    /* border: 2px solid rgb(95, 166, 73); */
+    font-weight: 400;
+}
+
+#page3 {
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid red; */
+    /* background-color: rgb(107, 107, 206); */
+    padding: 4vw 5vw;
+    display: flex;
+    gap: 6%;
+}
+
+#page3-left {
+    height: 100%;
+    width: 37%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10vw;
+}
+
+#page3-left img {
+    height: 60%;
+    width: 70%;
+    border-radius: 30%;
+}
+
+#page3-left h2 {
+    font-weight: 500;
+    line-height: 2.2vw;
+}
+
+
+
+#page3-right {
+    height: 100%;
+    width: 57%;
+    /* background-color: rgb(179, 146, 103); */
+}
+
+#page3-right img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#page4 {
+    height: 100%;
+    width: 100%;
+    padding: 0 2vw;
+}
+
+#page4 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 4vw;
 }
