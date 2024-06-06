@@ -224,7 +224,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2vw 5vw;
+    padding: 2vw 4vw;
 }
 
 #page2-1 {
@@ -284,7 +284,7 @@ body {
     width: 100%;
     /* border: 2px solid red; */
     /* background-color: rgb(107, 107, 206); */
-    padding: 4vw 5vw;
+    padding: 4vw;
     display: flex;
     gap: 6%;
 }
@@ -329,7 +329,6 @@ body {
 #page4 {
     height: 100%;
     width: 100%;
-    padding: 0 2vw;
 }
 
 #page4 img {
@@ -337,4 +336,89 @@ body {
     width: 100%;
     object-fit: cover;
     padding: 4vw;
+}
+
+#page5 {
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+    padding: 3vw 4vw;
+}
+
+#page5>h1 {
+    text-align: center;
+    font-family: 'Rowdies', sans-serif;
+    text-transform: uppercase;
+    font-size: 3.6vw;
+    margin-bottom: 10vh;
+}
+
+.elem {
+    /* background-color: red; */
+    height: 16vh;
+    width: 100%;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+    position: relative;
+    transition: all ease 0.7s;
+}
+
+.elem img {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 50%;
+    left: 12%;
+    opacity: 0;
+    transition: all ease 0.7s;
+}
+
+.elem h4 {
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 6%;
+    /* background-color: red; */
+}
+
+.elem .elem-part2 {
+    /* background-color: purple; */
+    width: 50%;
+}
+
+.elem-part2 h2 {
+    font-size: 2.7vw;
+    font-weight: 400;
+}
+
+.elem-part2 h5 {
+    font-size: 1vw;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.elem:nth-last-child(1) {
+    border-bottom: 2px solid black;
+}
+
+.elem:nth-last-child(1) img {
+    left: 40%;
+}
+
+.elem:nth-last-child(3) img {
+    left: 40%;
+}
+
+.elem:hover {
+    background-color: #e6e6e6;
+}
+
+.elem:hover img {
+    opacity: 1;
+    left: 25%;
 }
