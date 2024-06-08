@@ -491,3 +491,15 @@ body {
 .page6-image img:nth-child(2) {
     width: 80%;
 }
+
+#page7 {
+    height: 100%;
+    width: 100%;
+    padding: 5vw 4vw;
+}
+
+#page7 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
