@@ -41,12 +41,28 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    font-size: 45px;
+    font-family: 'Rowdies', sans-serif;
+    font-size: 3.5vw;
+    position: relative;
+    top: -10px;
 }
 
-#nav h1::after{
-    
+#nav h1::after {
+    content: "ⓒ";
+    font-size: 1.1vw;
+    font-weight: 400;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+}
+
+#nav h1::before {
+    content: "model management";
+    font-size: 0.8vw;
+    font-weight: 300;
+    position: absolute;
+    bottom: 13%;
+    right: 19%;
 }
 
 #nav h2 {
@@ -577,7 +593,7 @@ body {
     display: inline-block;
     font-size: 3vw;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 700;
     -webkit-text-stroke: 2px black;
     color: transparent;
     font-family: 'Rowdies', sans-serif;
