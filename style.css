@@ -331,8 +331,6 @@ body {
     line-height: 2.2vw;
 }
 
-
-
 #page3-right {
     height: 100%;
     width: 57%;
@@ -616,7 +614,85 @@ body {
     }
 }
 
-#footer {
+#page9 {
     height: 100%;
+    width: 100%;
+    padding: 8vw 4vw 12vw 4vw;
+    /* border: 2px solid salmon; */
+    display: flex;
+    justify-content: space-between;
+    gap: 4vw;
+}
+
+#page9text {
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid salmon; */
+}
+
+#page9text h1 {
+    font-family: 'Rowdies', sans-serif;
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+
+#page9blog {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 4vw;
+    /* border: 2px solid salmon; */
+}
+
+#page9blog .left {
+    height: 100%;
+    width: 45%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+}
+
+#page9blog .left h1 {
+    height: 22%;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.5vw;
+    line-height: 2vw;
+}
+
+#page9blog .left img {
+    height: calc(100% - 22% - 4vw);
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+
+#page9blog .right {
+    height: 100%;
+    width: calc(100% - 45% - 4vw);
+    /* border: 2px solid salmon; */
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+}
+
+#page9blog .right h1 {
+    height: 22%;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.5vw;
+    line-height: 2vw;
+}
+
+#page9blog .right img {
+    height: calc(100% - 22% - 4vw);
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+
+#footer {
+    height: 30%;
     width: 100%;
 }
